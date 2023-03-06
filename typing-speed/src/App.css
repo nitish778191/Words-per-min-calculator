@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+html
+{
+  background-color: #282c34;
+}
+
+
+.content
+{
+  color: white;
+ align-self: center;
+  text-align: left;
+  display: block;
+  padding: 1em;
+  margin-left:auto;
+  margin-right: auto;
+
+
+}
+
+.container
+{
+  border-radius: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
+  box-shadow:  3px 4px 5px 3px  black;
+  max-width: 1000px;
+  min-width: 500px;
+
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+
+}
+.UserContainer
+{
+  border-radius: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
+  box-shadow:  3px 4px 5px 3px  black;
+  max-width: 100px;
+  min-width: 100px;
+  height: 40px;
+  padding-bottom: 10px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+
+}
+.App-header {
+
+  min-height: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.blueChar
+{
+  color: #00c7ff;
+}
+.redChar
+{
+  color: #ff0000;
+}
+.greenChar
+{
+  color: #18ff00;
+}
+.timerG
+{
+  margin-right: 2em;
+  margin-left: 2em;
+  color: #18ff00;
+}
+
+.timerY
+{
+  margin-right: 2em;
+  margin-left: 2em;
+  color: #ffdd00;
+}
+.timerRS
+{
+  margin-right: 2em;
+  margin-left: 2em;
+  color: #ff0000;
+  animation: shake infinite 1s;
+}
+
+@keyframes shake {
+
+  0%{
+
+    transform: skewX(0deg) translateX(0);
+  }
+  25%{
+
+    transform: skewX(10deg) translateX(5px);
+  }
+
+  50%{
+    transform: skewX(-10deg) translateX(-5px);
+  }
+  100%{
+    transform: skewX(0deg) translateX(0);
+  }
+
+}
+
+
+.timerB
+{
+  color:  #00c7ff;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+
+.mainContent
+{
+
+  align-self: center;
+  align-items: center;
+}
+
+
+
+.headerContainer
+{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.resultDisabled
+{
+  visibility: hidden;
+}
+.results
+{
+  box-shadow:  3px 4px 5px 3px  black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 1em;
+}
+
+h5
+{
+  margin-bottom: 0;
+  width: 9em;
+}
+.resultTextG
+{
+  color: #18ff00;
+}
+
+.resultTextY
+{
+  color: #ffdd00;;
+}
+.userInActive
+{
+
+  background-color: #282c34;
+  color: #282c34;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 30px;
+  height: 170px;
+  border-radius: 5px;
+  max-width: 1000px;
+  min-width: 500px;
+  align-self: center;
+  border: #282c34;
+  outline-color: #282c34;
+
+
+}
+
+
+textarea
+{
+  background-color: #282c34;
+  width: 100%;
+  height: 170px;
+  resize: none;
+  color: transparent;
+  border: #282c34;
+  outline: none;
+}
+.startButton
+{
+  color:  #00c7ff;
+  height: 30px;
+  width: 110px;
+  background-color: #282c34;
+  box-shadow: none;
+  border: none;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 40px;
+  border-radius: 17px;
+}
+.startButton:hover
+{
+  background-color:  #00c7ff;
+  color: black;
+
+  border-radius: 17px;
+}
